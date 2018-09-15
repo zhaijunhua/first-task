@@ -6,7 +6,9 @@ a{text-decoration:none;}
 a:hover{text-decoration:none;}
 div{margin:0 auto;border:0;text-align: left;background-color: #f8f7f3;}
 
-.thebody{background: #f8f7f3;width: 1024px;overflow: hidden;}
+.thebody{background: #f8f7f3;
+	width: 1024px;
+	overflow: hidden;}
 
 #top{width:1024px;position: relative;}
 .top_main{;width: 800px;}
@@ -39,43 +41,102 @@ div{margin:0 auto;border:0;text-align: left;background-color: #f8f7f3;}
 
 
 
-#main{/*background:#f8f7f3;*/width: 1024px;overflow: hidden;}
-.middle{background-color: #f8f7f3;margin-top: -50px;}
-.sheet{width: 660px;margin-left: 170px;margin-top: 180px;background: #ffffff;border: 0px;border-color: #f8f7f3;text-align: left;}
-p{font-size: 10px;color: #7a7979;font-family: '宋体';font-weight: bold;}
-span{font-size: 14px;color: #7a7979;font-family: '宋体';font-weight: bold;}
+#main{/*background:#f8f7f3;*/width: 1024px;
+	   overflow: hidden;
+	}
+#main{background:#f8f7f3;
+		width: 1024px;
+	   overflow: hidden;
+	}
+.middle{
+	background-color:#ffffff;
+		width: 644px;
+	    margin-top: -50px;}
+.middle p{
+	color: #7a7979;
+	font-family: '宋体';
+	font-weight: bold;
+	font-size: 10px;}
+span{font-size: 14px;
+	color: #7a7979;
+	font-family: '宋体';
+	font-weight: bold;
+}
 
-.one{width: 680px;}
-.one ul li{float: left;}
-.picture1 .p1{margin-left: -40px;margin-top: -20px;}
-.picture1 .word1{margin-top: 40px;padding-left: 50px;}
-.picture1 .p2{padding-left: 130px;margin-top: -16px;}
-.picture1 .A{margin-left: -273px;margin-top: 90px;}
-.picture1 .B{margin-top: -30px;margin-left: 236px;}
+.one{background:#ffffff;
+	width: 644px;
+	height: 133px;
+		overflow: hidden;
+		margin-top: 100px;
+		position: relative;
+	}
+.one ul li{float: left;
+			margin-top: -20px;
+		}
+.drink .p1{margin-left: -40px;}
+.drink .d_tea{padding-left: 100px;margin-top: 30px;}
+.drink .p2{margin-left: 38px;}
 
 
-.two{width: 680px;}
-.picture2 li{float: left;}
-.picture2 .p3{margin-left:-150px;margin-top:30px;}
-.picture2 .p4{margin-left: -86px;padding-top: -4px;}
-.picture2 .p5{margin-left:8px;margin-top: 14px;}
 
-.three
-.picture3 li{float: left;}
-.picture3 .p6{margin-left: 2px;margin-top: -84px;}
-.picture3 .p7{padding-left: 28px;padding-top: 18px;}
-.picture3 .p8{padding-left: 104px;margin-top: -86px;}
-.picture3 .C{margin-top: 124px;margin-left: -166px;}
-.picture3 .D{margin-top: -31px;padding-left: 304px;}
+.picture1 .A{
+			margin-left: -273px;
+			margin-top: 90px;}
+.picture1 .B{margin-top: -30px;
+			margin-left: 236px;}
 
 
-.picture4 li{float: left;}
-/*.picture4 .learn{font-family: '宋体';font-size: 12px;font-weight: bold;padding-left: -30px;}*/
-.picture4 .p9{margin-left: 700px;padding-top: 0px;}
-.picture4 a{font-family: '宋体';font-size: 12px;font-weight: bold;padding-left: -300px;margin-top: -200px}
-.picture4 a:hover {border: 2px;color: #f4a8a5;}
+.friend{width: 644px;
+		display:inline;
+	}
 
-.methodway{width: 1024px;/*background: #f8f7f3;*/overflow: hidden;position: relative;}
+.two{width: 190px;
+	background:#ffffff;
+	overflow: hidden;
+	display: inline;
+	float: left;
+	margin-left: 0px;
+}
+
+
+
+.kindtea .k_tea{margin-left:-30px;
+	         margin-top:30px;}
+.kindtea .p3{margin-left: -36px;
+	        padding-top: -4px;}
+.picture2 .p5{margin-left:38px;
+			padding-top: 30px;
+		}
+
+.three{
+	margin-left: 20px;
+background: #ffffff;
+	display: inline;
+	float: left;
+    padding-top: -25px;
+    margin-left: -20px;
+}
+.chat .p4{margin-top: -20px;
+			margin-left: -40px;}
+
+
+.chat .com{padding-top: 30px;
+			}
+
+
+.four{overflow: hidden;
+		background: #ffffff;
+		width: 164px;}
+.sharespace .share{margin-left: -30px;
+					margin-top: 20px;}
+.sharespace .p5{margin-left: -40px;
+	padding-top: 30px;
+				}
+
+.methodway{width: 1024px;
+	/*background: #f8f7f3;*/
+	overflow: hidden;
+	position: relative;}
 .method li{float: left;}
 .method span{font-size: 14px;color: #494848;}
 .method p{font-size: 12px;color: #494848;}
@@ -90,8 +151,11 @@ span{font-size: 14px;color: #7a7979;font-family: '宋体';font-weight: bold;}
 
 
 
-.way{padding-top: 0px;position: relative;}
-.sort li{float: left;png-top: -4px;}
+.sort{overflow: hidden;
+	padding-top: 0px;
+	position: relative;
+	width: 1024px;}
+.sort li{float: left;}
 .sort li a{font-family: '微软雅黑';color: #494848;font-size:14px;line-height: 14px;font-weight: bold; }
 .sort li a:hover{color: #ec6941;}
 
@@ -125,7 +189,8 @@ span{font-size: 14px;color: #7a7979;font-family: '宋体';font-weight: bold;}
 
 
 
-#use{width: 1024px;/*background-color: #f8f7f3;*/overflow: hidden;}
+#use{width: 1024px;/*background-color: #f8f7f3;*/
+	overflow: hidden;}
 .buy li{float: left;}
 .buy .buy1{margin-left: 160px;}
 
@@ -140,7 +205,11 @@ span{font-size: 14px;color: #7a7979;font-family: '宋体';font-weight: bold;}
 
 
 
-.end{width: 1024px;height:120px;/*overflow: hidden;*/background: #616161;position: absolute;}
+.end{width: 1024px;
+	height:120px;/*overflow: hidden;*/
+	background: #616161;
+	margin:-14px auto;
+	position: relative;}
 
 .bpttom{}
 .last li{float: left;}
@@ -151,6 +220,12 @@ span{font-size: 14px;color: #7a7979;font-family: '宋体';font-weight: bold;}
 .last .last3{padding-top: 10px;padding-left: 50px;}
 .last .last4{padding-left: 100px; padding-top: 20px;}
 
-
-input.write{margin-top: 36px;margin-left:40px;background:#616161;border:1px solid ##b7b6b6; }
-input.search{margin-left: -40px;}
+form{float: left;}
+input.write{margin-top: 36px;
+	margin-left:40px;
+	background:#616161;
+	border:1px solid #b7b6b6; 
+	outline: none;}
+input.search{margin-left: -40px;
+				margin-top: 20px;
+             outline: none;}
